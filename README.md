@@ -28,7 +28,7 @@ type this command in the keyboard
 
 ## GoPls
 
-Installing GoPls Intellesense requires you to go run vim and type this in the keyboard
+Installing GoPls Intellesense requires enter this command in the keyboard while inside vim
 
 ```
 :CocConfig
@@ -38,17 +38,17 @@ then paste this
 
 ```
 {
-	"languageserver": {
-		"golang": {
-			"command": "gopls",
-			"rootPatterns": ["go.mod", ".vim/", ".git/", ".hg/"],
-			"filetypes": ["go"]
-		}
-	}
+ "languageserver": {
+  "golang": {
+   "command": "gopls",
+   "rootPatterns": ["go.mod", ".vim/", ".git/", ".hg/"],
+   "filetypes": ["go"]
+  }
+ }
 }
 ```
 
-and type this final command
+and enter this final command
 
 ```
 :CocInstall coc-json
