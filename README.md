@@ -2,13 +2,13 @@
 
 First is to install brew
 
-```
+```Shell
 $ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
 
 then clone this and cd to where you put the `dotfiles` and run brew to install the essential tools and apps
 
-```
+```Shell
 $ brew.sh
 ```
 
@@ -28,29 +28,27 @@ The list of apps that will be installed is inside `cask.sh`
 
 Vim will be installed by brew but it's plugin should be installed by going in vim
 
-```
+```Shell
 $ vi
 ```
 
 enter this command in the keyboard
 
-```
+```Shell
 :PlugInstall
 ```
-
-### Vim aliases
 
 ### Go vim highlighter and autoimporter
 
 This settings will highlight all functions and autoimports unimported modules when saving. To use this, access your `vimrc` by
 
-```
+```Shell
 $ vi ~/.vimrc
 ```
 
 and add the following
 
-```
+```Vim script
 " Go
 let g:go_highlight_functions = 1
 let g:go_highlight_methods = 1
@@ -75,13 +73,13 @@ let g:go_info_mode='gopls'
 
 Installing GoPls Intellesense requires enter this command in the keyboard while inside vim
 
-```
+```Shell
 :CocConfig
 ```
 
 then paste this
 
-```
+```Vim script
 {
  "languageserver": {
   "golang": {
@@ -95,7 +93,7 @@ then paste this
 
 and enter this final command
 
-```
+```Shell
 :CocInstall coc-json
 ```
 
