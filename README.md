@@ -22,6 +22,9 @@ The list of apps that will be installed is inside `cask.sh`
 * Chrome --- Browser
 * Android Transfer --- MacOs to Android Transfer
 * Transmission --- Torrent Downloader
+* IINA --- Video Player
+* VLC --- Video Player
+* Insomia --- Post Handler
 ```
 
 ## Vim
