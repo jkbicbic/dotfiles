@@ -8,7 +8,7 @@ brew cask install sequel-pro
 brew cask install google-chromea
 brew cask install android-file-transfer
 brew cask install transmission
-brew cask install vlc
+brew cask install iina
 brew cask install insomia
 
 brew cleanup
