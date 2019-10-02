@@ -10,5 +10,5 @@ brew cask install android-file-transfer
 brew cask install transmission
 brew cask install iina
 brew cask install insomia
-
+brew cask install docker 
 brew cleanup
