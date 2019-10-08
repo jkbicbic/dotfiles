@@ -71,6 +71,16 @@ let g:go_info_mode='gopls'
 
 ```
 
+## Lightline
+
+Installing lightline by adding this the `.vimrc` Plug section
+
+```
+Plug 'itchyny/lightline.vim'
+```
+
+
+
 ## GoPls
 
 Installing GoPls Intellesense requires enter this command in the keyboard while inside vim
