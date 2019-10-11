@@ -100,5 +100,8 @@ brew install zopfli
 brew install fzf
 brew install mysql@5.7
 
+# Install other cli
+brew install youtube-dl
+
 # Remove outdated versions from the cellar.
 brew cleanup
